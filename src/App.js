@@ -20,7 +20,7 @@ const App = () => {
       <h4>Questão 02</h4>
       <PC.PlacaMae nome="GIGABYTE B450" preco="R$ 648,87" />
       <PC.Memoria nome="VALKYRIE V5 8GB" preco="R$ 158,87" />
-      <PC.PlacaDeVideo nome="GIGABYTE B450" preco="R$ 648,87" />
+      <PC.PlacaDeVideo nome="RTX 4060 8GB" preco="R$ 2098,00" />
     </div>
   )
 }
