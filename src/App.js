@@ -5,7 +5,7 @@ import Temperatura from "./Atividade00/03Temperatura";
 import Pai from "./atividade01/questao01/01Pai";
 import * as PC from "./atividade01/02MeuPC";
 import { Arena, Enemy, Hero, World } from "./atividade01/03Batalha";
-import { hero_img, vilain_img } from "./atividade01/Imagens";
+import * as bnh from "./atividade01/Imagens";
 
 const App = () => {
   return (
@@ -25,16 +25,16 @@ const App = () => {
       <div>
         <World>
           <Arena arena="U.A. High School">
-            <Hero name="Mirio Togata" img={hero_img} />
-            <Enemy name="Overhaul" img={vilain_img} />
+            <Hero name="Mirio Togata" img={bnh.mirio} />
+            <Enemy name="Overhaul" img={bnh.overhaul} />
           </Arena>
           <Arena arena="Class 1-A">
-            <Hero name="Mirio Togata" img={hero_img} />
-            <Enemy name="Overhaul" img={vilain_img} />
+            <Hero name="All Might" img={bnh.all_might} />
+            <Enemy name="One For All" img={bnh.one_for_all} />
           </Arena>
           <Arena arena="Musutafu, Japan">
-            <Hero name="Mirio Togata" img={hero_img} />
-            <Enemy name="Overhaul" img={vilain_img} />
+            <Hero name="Bakugo" img={bnh.bakugo} />
+            <Enemy name="Deku" img={bnh.deku} />
           </Arena>
         </World>
       </div>

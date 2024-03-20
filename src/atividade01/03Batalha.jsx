@@ -39,5 +39,5 @@ export function Arena({ children, arena }) {
 }
 
 export function World(props) {
-  return <div>{props.children}</div>;
+  return <div style={{ display: "flex", gap: "1rem", margin: "0 1rem" }}>{props.children}</div>;
 }
