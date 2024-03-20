@@ -22,3 +22,26 @@ body {
   padding: 1rem 2rem;
   margin: 1rem;
 }
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-name {
+  text-align: end;
+}
+
+span {
+  display: flex;
+  align-items: center;
+}
+
+.arena {
+  display: flex;
+  width: 40rem;
+  padding: 1rem 2rem;
+  margin: 2rem auto;
+  border: solid 3px #ccc;
+  border-radius: 15px;
+}
